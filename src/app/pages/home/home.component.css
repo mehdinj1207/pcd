@@ -6,6 +6,30 @@
     object-fit: cover;
 }
 
+.bv2{
+  background-color: #fff;
+    outline: none;
+    border: none;
+    color: #261d51;
+    padding: 8px 22px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: bold;
+}
+.bv{
+  background-color: #261d51;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
 .homecontent
 {
         position: absolute;
@@ -94,6 +118,8 @@
     font-weight: bold;
     font-size: large;
   }
+
+
    .card-text
    {
     position:center;
@@ -275,4 +301,40 @@
     cursor: pointer;
   }
   
-  
+  .teacher{
+    background-image:url(../../../assets/img/dance.webp);
+    height : 400px;
+    width: auto;
+    border-radius: 20px;
+
+  }
+  .high{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #261d51;
+  }
+  .high2{
+    font-weight: bold;
+    font-size:larger;
+    color: #fff;
+    
+  }
+  .high3{
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    text-decoration: underline;
+    color: #fff;
+  }
+  .bv3{
+    background-color: #261d51;
+      outline: none;
+      border: none;
+      color: #fff;
+      padding: 8px 22px;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+  }

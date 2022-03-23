@@ -16,6 +16,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { from } from 'rxjs';
 import { CoursesComponent } from './pages/courses/courses.component';
 import { ThirdofComponent } from './pages/thirdof/thirdof.component';
+import { RegistercenterComponent } from './pages/registercenter/registercenter.component';
+import { RegisterstudentComponent } from './pages/registerstudent/registerstudent.component';
+import { RegisterformerComponent } from './pages/registerformer/registerformer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,10 @@ import { ThirdofComponent } from './pages/thirdof/thirdof.component';
     FooterComponent,
     HomeComponent,
     CoursesComponent,
-    ThirdofComponent
+    ThirdofComponent,
+    RegistercenterComponent,
+    RegisterstudentComponent,
+    RegisterformerComponent
   ],
   imports: [
     BrowserModule,

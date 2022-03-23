@@ -9,8 +9,9 @@
 
 h1 
 {
+    font-family: cursive;
     font-weight: bold;
-    color: #fff;
+    color: #261d51;
     font-size: 20px;
 }
 p 
@@ -31,5 +32,5 @@ a:hover
 }
 i 
 {
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
