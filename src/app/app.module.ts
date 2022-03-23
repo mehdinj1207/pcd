@@ -19,6 +19,7 @@ import { ThirdofComponent } from './pages/thirdof/thirdof.component';
 import { RegistercenterComponent } from './pages/registercenter/registercenter.component';
 import { RegisterstudentComponent } from './pages/registerstudent/registerstudent.component';
 import { RegisterformerComponent } from './pages/registerformer/registerformer.component';
+import { AllprofComponent } from './pages/allprof/allprof.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +34,8 @@ import { RegisterformerComponent } from './pages/registerformer/registerformer.c
     ThirdofComponent,
     RegistercenterComponent,
     RegisterstudentComponent,
-    RegisterformerComponent
+    RegisterformerComponent,
+    AllprofComponent
   ],
   imports: [
     BrowserModule,

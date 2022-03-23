@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about.component';
+import { AllprofComponent } from './pages/allprof/allprof.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CoursesComponent } from './pages/courses/courses.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -23,7 +24,8 @@ const routes: Routes = [{path:"home",component:HomeComponent   },
 {path:"home/thirdof",component:ThirdofComponent},
 {path:"thirdof/registerstudent",component:RegisterstudentComponent},
 {path:"thirdof/registerformer",component:RegisterformerComponent},
-{path:"thirdof/registercenter",component:RegistercenterComponent}
+{path:"thirdof/registercenter",component:RegistercenterComponent},
+{path:"courses/allprof",component:AllprofComponent}
 ];
 
 @NgModule({
